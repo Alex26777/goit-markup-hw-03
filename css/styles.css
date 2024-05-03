@@ -1,0 +1,352 @@
+/* Підключення шрифтів з Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+
+/* Скидання стилів */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF; /* Білий колір фону */
+    color: #434455;
+    line-height: 1.6;
+}
+
+
+header,
+footer {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+/* Навігація та адреса */
+header nav,
+header address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+header nav ul,
+header address ul {
+    list-style: none;
+}
+
+header nav ul li,
+header address ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-logo {
+    font-family: 'Raleway', sans-serif; /* Встановлення шрифту Raleway */
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px; 
+    letter-spacing: 0.03em; 
+    text-align: left; 
+    text-decoration: none; 
+    background-color: #FFFFFF;
+}
+
+.header-logo {
+    color: #4D5AE5; /* Колір тексту для частини WEB */
+}
+
+.header-logo .studio {
+    color: #2E2F42; /* Колір тексту для частини STUDIO */
+}
+
+
+/* Стилі для заголовку */
+.header-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px; /* або 107% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF; /* WHITE */
+}
+
+/* Стилі для заголовку "Effective Solutions for Your Business" */
+.header-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF; /* Білий колір тексту */
+}
+
+/* Стилі для секції */
+.solutions-section {
+    background: #2E2F42; /* Колір фону секції */
+    padding: 20px; /* Відступи для секції */
+}
+
+/* Стилі для кнопки "Order Service" */
+.order-button {
+    background: #404bbf; /* Колір фону кнопки */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF; /* Білий колір тексту */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    cursor: pointer; /* Змінює вигляд курсору на поінтер */
+    transition: background-color 0.3s ease; /* Плавна зміна кольору фону */
+}
+
+.order-button:hover, .order-button:focus {
+    background: #6C7AE0; /* Світліший колір фону при наведенні і фокусі */
+}
+
+/* Стиль для заголовка H2 на Main Page */
+.header-2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+}
+
+ul {
+    list-style: none;
+    }
+
+      /* Заголовки H2 */
+      h2 {
+        font-size: 20px; /* Встановлюємо розмір шрифту 20px */
+    }
+
+header nav a,
+header address a {
+    text-decoration: none;
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal; /* Видалення курсивного стилю */
+}
+
+header address a:hover,
+header nav a:hover {
+    color: #766cf1;
+}
+
+/* Стилі та оформлення заголовків на Main Page */
+.header-2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.header-3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
+
+.body-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+/* Фоновий колір секції "Our Team" */
+.team-section {
+    background-color: #F4F4FD; /* Світло-фіолетовий колір фону */
+}
+
+/* Стилі для кожного члена команди */
+.team-member {
+    background-color: #FFFFFF; /* Білий колір фону */
+    margin: 10px 0; /* Відступи між членами команди */
+    padding: 10px; /* Внутрішні відступи для кожного члена команди */
+    border-radius: 5px; /* Закруглені кути */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Тінь для кожного члена команди */
+}
+
+/* Стилі для фільтру */
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.filter-btn {
+    background: #e7e9fc;
+    cursor: pointer;
+    font-weight: 400;
+    color: #2e2f42;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: #2e2f42;
+    color: white;
+}
+
+/* Стилі для карток проектів для сторінки Studio */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Додаємо центрування всіх елементів у контейнері */
+    padding: 20px; /* Додано відступ для контейнера */
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid transparent; /* Рамка невидима */
+    width: 360px; /* Ширина кожної картки */
+    height: 420px; /* Висота кожної картки */
+    padding-bottom: 32px; /* Нижній відступ */
+    margin: 0; /* Нульові марджини для коректного врахування ширини */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Додавання тіні для виділення */
+    border-radius: 8px; /* Закруглення кутів */
+    transition: transform 0.3s ease;
+    opacity: 1; /* Забезпечення видимості */
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-card h2 {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0 5px;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #434455;
+    margin-bottom: 20px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+/* Стилі для футера */
+footer {
+    background: #2E2F42; /* Темний фон для футера */
+    width: 1440px; /* Встановлена ширина */
+    height: 312px; /* Встановлена висота */
+    position: absolute; /* Абсолютне позиціонування для футера */
+    top: 1764px; /* Верхній відступ футера */
+    left: 0; /* Лівий відступ футера для центрування */
+    display: flex;
+    justify-content: flex-start; /* Вирівнювання вмісту зліва */
+    color: #F4F4FD; /* Колір тексту */
+    box-sizing: border-box; /* Уникнення впливу внутрішніх відступів на розміри */
+}
+
+.footer-content {
+    width: 264px; /* Ширина блоку з текстом */
+    height: 112px; /* Висота блоку з текстом */
+    position: absolute; /* Абсолютне позиціонування блоку */
+    top: 1864px; /* Верхній відступ блоку */
+    left: 156px; /* Лівий відступ блоку */
+    opacity: 1; /* Забезпечує видимість блоку */
+}
+
+footer a[href="./index.html"] span:first-child {
+    color: #4D5AE5; /* Колір тексту для частини WEB */
+}
+
+footer a[href="./index.html"] span:last-child {
+    color: #2E2F42; /* Колір тексту для частини STUDIO */
+}
+
+footer a[href="./index.html"] {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+footer a[href="./index.html"] span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin: 0; /* Видалення зайвих марджинів */
+}
+
+
+
+/* Стилі для всіх кнопок фільтра сторінки Studio */
+.filter-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid #E7E9FC;
+    background: #E7E9FC;
+    color: #4D5AE5;
+    margin: 5px; /* Adjust margin as needed, possibly only horizontal */
+    display: inline-block; /* Changed from block to inline-block */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.filter-btn {
+    margin: 0 10px; /* Відступи між кнопками */
+    display: inline-block; /* Забезпечує, що кнопки можуть бути в рядку */
+}
+
+/* Стилі для кнопки "All" */
+.filter-btn.All {
+    background: #404BBF; /* Темно-синій колір фону */
+    color: #FFFFFF; /* Білий колір тексту */
+}
+
+/* Стилі для стану наведення миші на кнопки, крім "All" */
+.filter-btn:not(.All):hover {
+    background: #4D5AE5; 
+    color: #FFFFFF;
+}
